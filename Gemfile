@@ -44,7 +44,7 @@ end
 #   gem "pg"
 #   gem "rails_12factor"
 # end
- gem 'pg', group: :production
+ gem 'pg', "~> 0.18",group: :production
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
